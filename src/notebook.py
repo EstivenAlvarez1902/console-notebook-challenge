@@ -1,1 +1,14 @@
-# TODO: Agrega el código de las clases del modelo aquí. Borra este comentario al terminar.
+
+
+class Note:
+    High: str = ("HIGH")
+    Medium: str = ("MEDIUM")
+    Low: str = ("LOW")
+
+
+    def __init__(self, code: str, tittle: str,text: str,importance: str):
+        self.code = code
+        self.tittle = tittle
+        self.importance = importance
+
+
