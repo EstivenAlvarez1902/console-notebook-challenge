@@ -1,5 +1,7 @@
 
 
+
+
 class Note:
     High: str = ("HIGH")
     Medium: str = ("MEDIUM")
