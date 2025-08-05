@@ -14,3 +14,14 @@ class Note:
         self.importance = importance
 
 
+
+class Notebook:
+    Notes = []
+
+
+    def add_note(self, tittle: str, text: str, importance: str,):
+
+
+
+
+
